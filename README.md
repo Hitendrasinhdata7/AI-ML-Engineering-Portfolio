@@ -1,131 +1,175 @@
-# 📊 Data Analytics Portfolio  
+# 🤖 AI & Data Engineering Portfolio  
 
-Welcome to my **Data Analytics Portfolio!**  
-This repository showcases my expertise in **Excel, Machine Learning, Power BI, Python, SQL, and Tableau.**  
-Each project includes detailed documentation and code to demonstrate my ability to solve real-world problems using data-driven insights.
+Welcome to my **AI & Data Engineering Portfolio**!  
+This repository showcases my expertise in **Agentic AI, Machine Learning, Workflow Automation, Healthcare IT, and Data Analytics**.  
+
+With **9+ years of IT experience** (including 5+ years in AI & automation), I’ve worked on projects that span across **healthcare, retail, and enterprise environments** — always with a focus on building **scalable, compliant, and impactful solutions**.  
 
 ---
 
 ## 📂 Projects Overview  
 
-### 📊 Excel Projects  
+### 🧠 Agentic AI & Automation Projects  
 
-#### 1️⃣ Excel Sales Dashboard  
-**Objective:** Created a dynamic dashboard to analyze sales data effectively.  
-- 📌 Pivot tables and charts for in-depth visualization.  
-- 📌 Automated calculations for sales trends and performance tracking.  
-- 📌 Easy-to-read layout for revenue, profits, and growth insights.  
+#### 1️⃣ Agentic Healthcare Workflow Automation  
+**Objective:** Automate anomaly detection in radiology workflows.  
+- **Approach:**  
+  - Designed an **AI agent using LangChain + n8n**.  
+  - Integrated with PACS/RIS data streams.  
+  - Triggered automated alerts when imaging backlogs or SLA breaches occurred.  
+- **Tools Used:** LangChain, LangGraph, n8n, DICOM, Python  
+- **Outcome:** Reduced manual intervention by **40%**, accelerated clinical escalations, and improved operational efficiency.  
+
+#### 2️⃣ Conversational AI Agent for Healthcare Queries  
+**Objective:** Provide clinicians and staff with a secure, intelligent Q&A agent.  
+- **Approach:**  
+  - Implemented **Retrieval-Augmented Generation (RAG)** with Pinecone.  
+  - Fine-tuned LLMs with **GDPR-compliant healthcare datasets**.  
+  - Deployed via FastAPI for seamless system integration.  
+- **Tools Used:** Pinecone, LangChain, FastAPI, Python  
+- **Outcome:** Cut down **query resolution time by 50%** while ensuring compliance.  
 
 ---
 
 ### 🤖 Machine Learning Projects  
 
-#### 1️⃣ Customer Churn Prediction  
-**Objective:** Built a predictive model to identify customers likely to churn.  
-- 🔹 Exploratory Data Analysis (EDA) to understand customer behavior.  
-- 🔹 Applied Logistic Regression and Random Forest models.  
-- 🔹 Achieved high accuracy and visualized results effectively.  
+#### 1️⃣ Anomaly Detection in Imaging Workflows  
+**Objective:** Identify operational anomalies in radiology processes.  
+- **Approach:**  
+  - Built an **Isolation Forest model** in Python.  
+  - Ingested imaging system logs in real-time.  
+  - Deployed via Docker for scalable integration.  
+- **Tools Used:** Python, Scikit-learn, Isolation Forest, Docker  
+- **Outcome:** Reduced imaging workflow errors by **25%**.  
 
-#### 2️⃣ Exploratory Data Analysis (EDA) on Titanic Dataset  
-**Objective:** Analyzed Titanic passenger data to uncover survival patterns.  
-- 🔹 Data cleaning and preprocessing.  
-- 🔹 Visualizations of survival rates by gender, age, and class.  
-- 🔹 Insights used for model building.  
+#### 2️⃣ Predictive Patient Outcomes  
+**Objective:** Forecast patient outcomes to improve hospital resource planning.  
+- **Approach:**  
+  - Built predictive models with **XGBoost**.  
+  - Integrated into hospital systems using **FastAPI APIs**.  
+  - Visualized predictions on clinician dashboards.  
+- **Tools Used:** Python, XGBoost, FastAPI, SQL, Power BI  
+- **Outcome:** Improved resource allocation accuracy by **20%**.  
 
-#### 3️⃣ Sentiment Analysis on Social Media Data  
-**Objective:** Analyzed public sentiment from social media data.  
-- 🔹 Preprocessed text data using **Natural Language Processing (NLP).**  
-- 🔹 Built a sentiment classifier for positive, neutral, and negative sentiments.  
-- 🔹 Created visualizations for sentiment distribution.  
-
-#### 4️⃣ Time-Series Analysis and Forecasting  
-**Objective:** Developed a forecasting model for time-series data.  
-- 🔹 Conducted trend and seasonality analysis.  
-- 🔹 Built an **ARIMA model** for accurate predictions.  
-- 🔹 Visualized forecast results for better decision-making.  
+#### 3️⃣ Customer Segmentation Model  
+**Objective:** Segment patients/customers for targeted healthcare services.  
+- **Approach:**  
+  - Applied **K-Means clustering** to patient demographics & behavior data.  
+  - Visualized clusters in **Power BI** dashboards.  
+- **Tools Used:** Python, Scikit-learn, Power BI  
+- **Outcome:** Improved patient engagement by **15%**.  
 
 ---
 
 ### 📈 Power BI Projects  
 
-#### 1️⃣ Customer Segmentation Dashboard  
-**Objective:** Built an interactive Power BI dashboard for customer segmentation.  
-- 📌 Grouped customers based on behavior and demographics.  
-- 📌 Provided insights for targeted marketing strategies.  
+#### 1️⃣ Radiology KPI Dashboard  
+**Objective:** Provide real-time visibility into imaging department performance.  
+- **Approach:**  
+  - Connected PACS/RIS and EHR data to **Power BI**.  
+  - Built dashboards for **appointment volumes, backlog, SLA breaches, referral trends**.  
+- **Tools Used:** Power BI, SQL, PACS/EHR data  
+- **Outcome:** Reduced reporting time by **30%**, enabling data-driven management decisions.  
 
-#### 2️⃣ Employee Productivity and Attendance Report  
-**Objective:** Designed a Power BI report to monitor employee productivity and attendance.  
-- 📌 Visualized attendance trends and productivity metrics.  
-- 📌 Drill-down capabilities for detailed insights.  
-
-#### 3️⃣ Sales and Revenue Analysis Dashboard  
-**Objective:** Created a comprehensive dashboard for sales and revenue analysis.  
-- 📌 KPIs for revenue, profit, and growth.  
-- 📌 Detailed charts for regional and product-level performance.  
+#### 2️⃣ Sales & Revenue Dashboard (Retail)  
+**Objective:** Track revenue and performance across business units.  
+- **Approach:**  
+  - Modeled transactional data into Power BI.  
+  - Created KPIs for **revenue, profit, growth**.  
+  - Built regional and product-level drill-downs.  
+- **Tools Used:** Power BI, SQL, DAX  
+- **Outcome:** Helped management identify underperforming regions and products.  
 
 ---
 
 ### 🐍 Python Projects  
 
-#### 1️⃣ Meal Recommendation Application  
-**Objective:** Developed a web-based meal recommendation system.  
-- 🔹 Built using **Flask** for the backend.  
-- 🔹 Interactive interface for meal suggestions.  
-- 🔹 Integrated data analysis and visualization.  
+#### 1️⃣ ETL Pipeline for NHS Data  
+**Objective:** Automate ingestion and transformation of healthcare datasets.  
+- **Approach:**  
+  - Built ETL workflows using **Airflow + Python + SQL**.  
+  - Handled patient demographics, imaging metadata, and hospital records.  
+  - Optimized for efficiency and compliance with GDPR standards.  
+- **Tools Used:** Airflow, Python, SQL  
+- **Outcome:** Improved data processing efficiency by **35%** and ensured reliable analytics.  
 
-#### 2️⃣ Online Trading Application  
-**Objective:** Built a trading simulation application.  
-- 🔹 Real-time stock data visualization.  
-- 🔹 Backend logic for trading functionalities.  
-- 🔹 Simple and user-friendly interface.  
+#### 2️⃣ NLP Log Analyzer  
+**Objective:** Automate anomaly detection from IT system logs.  
+- **Approach:**  
+  - Preprocessed large-scale text logs using **NLP pipelines**.  
+  - Extracted entities and key patterns for anomaly detection.  
+  - Visualized log insights in dashboards.  
+- **Tools Used:** Python, NLP, Pandas, Matplotlib  
+- **Outcome:** Reduced manual log review by **95%**, saving significant operational time.  
 
 ---
 
 ### 🛠️ SQL Projects  
 
-#### 1️⃣ Customer Segmentation and Retention Analysis  
-**Objective:** Conducted SQL-based analysis to understand customer segmentation and retention.  
-- 📌 Wrote complex **SQL queries** for segmentation analysis.  
-- 📌 Delivered insights on customer retention rates.  
+#### 1️⃣ Healthcare Data Warehouse  
+**Objective:** Design a structured data warehouse for NHS reporting.  
+- **Approach:**  
+  - Created **normalized schemas** for healthcare data.  
+  - Wrote optimized SQL queries for KPI reporting.  
+  - Ensured HL7/DICOM compliance in data flows.  
+- **Tools Used:** SQL Server, PostgreSQL  
+- **Outcome:** Accelerated compliance reporting and improved query performance.  
 
-#### 2️⃣ Employee Performance and HR Analytics  
-**Objective:** Performed HR analytics to evaluate employee performance.  
-- 📌 Used **SQL queries** to identify top-performing employees.  
-- 📌 Analyzed performance trends over time.  
-
-#### 3️⃣ Sales Database Management and Reporting  
-**Objective:** Managed and analyzed sales data using SQL.  
-- 📌 Created a **normalized database schema.**  
-- 📌 Wrote **SQL queries** for sales reporting and performance analysis.  
+#### 2️⃣ HR Analytics – Employee Performance  
+**Objective:** Evaluate staff productivity and retention.  
+- **Approach:**  
+  - Wrote SQL queries to measure performance trends.  
+  - Designed queries for employee segmentation (top performers, risk of attrition).  
+- **Tools Used:** SQL, Power BI  
+- **Outcome:** Provided actionable insights for HR strategy.  
 
 ---
 
 ### 📊 Tableau Projects  
 
-#### 1️⃣ Customer Insights & Engagement Dashboard  
-📌 **Objective:** Developed an interactive Tableau dashboard to analyze customer demographics, user roles, and historical interactions.  
+#### 1️⃣ Customer Engagement Dashboard  
+**Objective:** Visualize engagement trends across demographics and user roles.  
+- **Approach:**  
+  - Built an **interactive Tableau dashboard** with filters for role, team, and demographics.  
+  - Integrated engagement history for trend analysis.  
+- **Tools Used:** Tableau, Excel, SQL  
+- **Outcome:** Enabled management to tailor services for improved engagement.  
 
-🔍 **Key Features:**  
-✅ Built with **Tableau** – Interactive and dynamic visualizations.  
-✅ **Customer Demographics Analysis** – Segmentation by age, gender, and location.  
-✅ **User Roles & Team Distribution** – Organizational structure insights.  
-✅ **Customer Engagement Trends** – Historical interaction analysis.  
-✅ **Interactive Filters** – Customizable views by date, role, and team.  
+---
 
-💾 **Tools Used:** Tableau, Excel, Data Blending, Calculated Fields, Time-Series Analysis  
+## 💾 Tools & Tech Stack  
+
+- **Languages:** Python, SQL  
+- **AI & ML:** LangChain, LangGraph, Scikit-learn, XGBoost, NLP, Isolation Forest  
+- **Automation & Orchestration:** Airflow, n8n, Zapier  
+- **Visualization:** Power BI, Tableau, Looker  
+- **Databases:** Pinecone, Weaviate, PostgreSQL, MySQL  
+- **Healthcare IT:** HL7, DICOM, PACS/RIS, NHS Digital Standards, GDPR Compliance  
+- **DevOps & Others:** Docker, Git, FastAPI  
 
 ---
 
 ## 📂 How to Use This Repository  
 
-1️⃣ **Browse project folders** for **Excel, Machine Learning, Power BI, Python, SQL, and Tableau.**  
+1️⃣ Browse through folders for:  
+- `/AI_Agents/` → Agentic AI & automation projects  
+- `/ML_Projects/` → Machine learning case studies  
+- `/PowerBI/` → Power BI dashboards  
+- `/Python_ETL/` → Python & Airflow ETL workflows  
+- `/SQL/` → SQL analysis & scripts  
+- `/Tableau/` → Tableau dashboards  
+
 2️⃣ Each folder contains:  
-   - 📌 Project files (`.ipynb`, `.pbix`, `.sql`, `.twbx`).  
-   - 📌 Supporting documentation (datasets, reports, and README files).  
-3️⃣ **Check project-specific README files** for details on implementation.  
+- 📌 Project files (code, notebooks, dashboards)  
+- 📌 Documentation & datasets (if shareable)  
+- 📌 README files with step-by-step project details  
 
 ---
 
-🔗 **Connect with Me**  
-📩 Feel free to reach out if you have any questions or suggestions!  
-📧 Contact Me 📩 Email: Hitendrasinh.data7@gmail.com 🔗 LinkedIn: Hitendrasinh Rathod 🚀 Let's connect and collaborate on data-driven solutions! 🚀
+## 🔗 Connect with Me  
+
+📧 Email: **hitendrasinh.data7@gmail.com**  
+💼 LinkedIn: [Hitendrasinh Rathod](#)  
+
+
+🚀 *Let’s collaborate on AI-powered, data-driven, and healthcare-compliant solutions!* 🚀  
