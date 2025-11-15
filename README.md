@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🤖 AI & Data Engineering Portfolio  
 
 Welcome to my **AI & Data Engineering Portfolio**!  
