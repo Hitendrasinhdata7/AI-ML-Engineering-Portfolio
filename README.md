@@ -1,4 +1,4 @@
-# 📊 Data Analytics & AI Portfolio  
+# 📊 AI-ML-Engineering-Portfolio
 
 Welcome to my **Data Analytics & AI Portfolio!**  
 This repository showcases a collection of **AI-driven, machine learning, automation, and data analytics projects** that highlight my skills in **Python, SQL, Power BI, Tableau, and healthcare IT systems**.  
